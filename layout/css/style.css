@@ -1,0 +1,102 @@
+h3 {
+  color: darkviolet;
+  font-size: 44px;
+}
+h4 {
+  color: #ccc;
+}
+
+.login,
+.signup {
+  margin: 150px auto;
+  width: 400px;
+}
+.signup {
+  display: none;
+}
+body {
+  background-color: #f4f4f4;
+}
+.login .form-control,
+.signup .form-control {
+  background-color: #e5e5e5;
+  margin-bottom: 10px;
+  position: relative;
+}
+span {
+  cursor: pointer;
+}
+a {
+}
+h6 {
+  color: darkgreen;
+}
+h2 {
+  color: gold;
+}
+.x23 {
+  color: coral;
+}
+input[required="required"] {
+  position: relative;
+}
+input[required="required"] + span {
+  position: absolute;
+  top: 5%;
+  right: 21px;
+  font-size: 27px;
+  color: #f00;
+  font-weight: 600;
+}
+.home-stats h1 {
+  margin-bottom: 35px;
+}
+.home-stats .stat {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.6em;
+  border: 1px solid #fff;
+  border-radius: 10px;
+}
+
+.stat span {
+  display: block;
+  font-size: 3em;
+}
+.home-stats {
+  cursor: pointer;
+}
+.stat a {
+  color: #fff;
+}
+.stat {
+  color: #fff;
+}
+.cat {
+  position: relative;
+}
+.cat aside {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.cat:last-of-type ~ hr {
+  display: none;
+}
+.cat span {
+  cursor: pointer;
+}
+.card-heading {
+  position: relative;
+}
+.card-heading aside {
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+nav .breadcrumb {
+  margin-bottom: 0;
+}
